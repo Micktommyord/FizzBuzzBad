@@ -6,6 +6,18 @@ namespace FizzBuzzBad.Library
     {
         public static string GetValue(int input)
         {
+
+            //// The Better Way to do this
+            //if (input % 3 == 0 && input % 5 == 0)
+            //    return "FizzBuzz";
+            //if (input % 3 == 0)
+            //    return "Fizz";
+            //if (input % 5 == 0)
+            //    return "Buzz";
+
+            //return input.ToString();
+
+            // The wrong away to do the solution - very repetitive and time consuming......
             if (input == 1)
                 return "1";
             if (input == 2)
